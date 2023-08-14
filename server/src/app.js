@@ -4,6 +4,7 @@ const app = express();
 
 const planetsRouter = require("./routes/planets/planets.router");
 
+
 app.use(express.json());
 
 // Configure CORS to allow requests from http://localhost:3000
